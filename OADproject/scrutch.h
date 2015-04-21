@@ -16,6 +16,8 @@ public:
   explicit Scrutch(QWidget *parent = 0);
 
   ~Scrutch();
+private slots:
+  void conectar();
 
 private:
   Ui::Scrutch *ui;
