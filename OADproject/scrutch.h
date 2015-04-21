@@ -3,7 +3,8 @@
 
 #include <QMainWindow>
 
-namespace Ui {
+namespace Ui
+{
   class Scrutch;
 }
 
@@ -13,6 +14,7 @@ class Scrutch : public QMainWindow
 
 public:
   explicit Scrutch(QWidget *parent = 0);
+
   ~Scrutch();
 
 private:
